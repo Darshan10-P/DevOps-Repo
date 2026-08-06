@@ -8,7 +8,7 @@ pipeline{
             } 
         stage("this is from docker cmpose file "){
                 steps{
-                    sh "docker build -t app:latest ."
+                    echo "this is from docker compose file"
                 }
             }
         }
