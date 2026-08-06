@@ -8,7 +8,7 @@ pipeline{
             } 
         stage("this is from docker cmpose file "){
                 steps{
-                    sh "docker compose up "
+                    sh "docker compose up --build "
                 }
             }
         }
