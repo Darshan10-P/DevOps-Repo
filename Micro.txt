@@ -1,0 +1,11 @@
+cd your-project-folder
+
+git checkout -b staging
+
+git add .
+
+git commit -m "Adding Micro.txt file"
+
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+git push -u origin staging
